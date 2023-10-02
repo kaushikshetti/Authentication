@@ -1,18 +1,23 @@
 import React, { useState } from "react";
 import axios from 'axios'
 
+import{useNavigate} from 'react-router-dom';
+
 export default function Login() {
+  const navigate=useNavigate()
   const [data, setData] = useState({
     username: "",
     password: "",
   });
   const loginUser = (e) => {
     e.preventDefault();
+   
     const { username, password } = data;
     const { response } = axios.post("/api/auth/login", {
         username,
         password,
       });
+      navigate('/');
   };
   return (
     <div>
