@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import axios from "axios";
+import{useNavigate} from 'react-router-dom';
+
 
 export default function Register() {
+  const navigate=useNavigate()
   const [data, setData] = useState({
     username: "",
     email: "",
@@ -24,6 +27,7 @@ export default function Register() {
       phone,
       password,
     });
+    navigate('/login');
   };
   return (
     <div>
