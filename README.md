@@ -1,43 +1,35 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-    <title>Project Name Readme</title>
-</head>
 
-<body>
 
-    <h1>Project Name</h1>
+<h1>Project Name</h1>
 
-    <p>This is a README file for the Project Name application. Below are the instructions to run the frontend and backend parts of the project:</p>
+<p>This is a README file for the Project Name application. Below are the instructions to run the frontend and backend parts of the project:</p>
 
-    <h2>Frontend</h2>
+   <h2>Frontend</h2>
 
-    <p>To run the frontend, you can use the Vite application. Use the following command:</p>
+  <p>To run the frontend, you can use the Vite application. Use the following command:</p>
 
-    <pre><code>npm run dev</code></pre>
+<pre><code>npm run dev</code></pre>
 
-    <p>This will start the development server for the frontend of your project.</p>
+ <p>This will start the development server for the frontend of your project.</p>
 
-    <h2>Backend</h2>
+ <h2>Backend</h2>
 
-    <p>To run the backend application, you can use the following command:</p>
+<p>To run the backend application, you can use the following command:</p>
 
-    <pre><code>npm start</code></pre>
+<pre><code>npm start</code></pre>
 
-    <p>This will start the backend server for your application.</p>
+<p>This will start the backend server for your application.</p>
 
-    <h2>Creating the Project</h2>
+<h2>Creating the Project</h2>
 
-    <p>If you need to create a new Vite application, you can use the following command:</p>
+ <p>If you need to create a new Vite application, you can use the following command:</p>
 
-    <pre><code>npm create vite@latest</code></pre>
+ <pre><code>npm create vite@latest</code></pre>
 
-    <p>This command will create a new Vite project for you to work on.</p>
+<p>This command will create a new Vite project for you to work on.</p>
 
-</body>
 
-</html>
 
 
 
