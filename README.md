@@ -1,4 +1,5 @@
-
+<!DOCTYPE html>
+<html>
 
 <head>
     <title>Project Name Readme</title>
@@ -35,6 +36,9 @@
     <p>This command will create a new Vite project for you to work on.</p>
 
 </body>
+
+</html>
+
 
 
 
